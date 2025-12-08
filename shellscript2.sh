@@ -1,0 +1,5 @@
+sudo apt-get update-y
+sudo apt-get install -y nodejs npm
+npm install
+npm run build || true
+echo "Nodejs build completed"
