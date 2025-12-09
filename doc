@@ -29,3 +29,10 @@ EXPOSE 3000
 
 # Start the app
 CMD ["npm", "start"]
+
+sudo apt-get update -y
+sudo apt-get install -y nodejs npm
+npm install
+npm run build || true
+echo "Nodejs build completed"
+(nodejs baremetal)
